@@ -79,6 +79,20 @@ nav {
 .Banner {
   width: 100%;
   margin-bottom: 20px;
+  position: relative;
+}
+
+.btn-secondary {
+  background-color: white;
+  position: absolute;
+  top: 92%;
+  right: 1%;
+  border: none;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: beige;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .Banner img {
