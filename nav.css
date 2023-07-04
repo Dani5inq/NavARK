@@ -26,6 +26,12 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 2;
+  display: none;
+}
+
+.video-banner {
+  width: 100%;
+  height: 80%;
 }
 
 .fa-bars {
