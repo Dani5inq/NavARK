@@ -326,6 +326,7 @@ button:hover {
 
 .contactForm .inputBox button:hover {
   transform: scale(1.1);
+  color: black;
 }
 
 .footer {
