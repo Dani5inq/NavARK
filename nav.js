@@ -23,3 +23,17 @@ btnElement.addEventListener("click", () => {
     fontAwesome.classList.remove("fa-play");
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  var links = document.querySelectorAll('a[href^="#"]');
+  links.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      var target = document.querySelector(link.getAttribute('href'));
+      target.scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+});
+
