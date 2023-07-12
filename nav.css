@@ -6,6 +6,9 @@ body {
   padding: 0;
   line-height: 2.2;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;
